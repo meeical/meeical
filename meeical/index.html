@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="png" href="images/icon/favicon.png">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+	<title>Meeical</title>
+	<meta name="desciption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script>
+		$(window).on('scroll', function(){
+  			if($(window).scrollTop()){
+  			  $('nav').addClass('black');
+ 			 }else {
+ 		   $('nav').removeClass('black');
+ 		 }
+		})
+	</script>
+</head>
+<body>
+<!-- Navigation Bar -->
+	<header id="header">
+		<nav>
+			<div class="logo"><img src="images/icon/logo.png" alt="logo"></div>
+			<ul>
+				<li><a class="active" href="">Home</a></li>
+				<li><a href="#cont">Contributer</a></li>
+				<li><a href="#team_section">Team</a></li>
+				<li><a href="#services_section">Services</a></li>
+				<li><a href="#contactus_section">Contact</a></li>
+			</ul>
+			<!--<div class="srch"><input type="text" class="search" placeholder="Search here..."><img src="images/icon/search.png" alt="search" onclick=slide()></div>-->
+			<a class="get-started" href="login.html">Get Started</a>
+			<img src="images/icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+		</nav>
+		<div class="head-container">
+			<div class="quote">
+				<p>The beautiful thing about mechanical is that nothing can exist without mechanical.</p>
+				<h5>we are the team that wants to convey what we have learned to the people. In the field of mechanical engineering 
+					everything is not available at onePlateform.Meeical is a small effort to bring it at a single plateform.
+					We request to all of you please join us in this journey.</h5>
+				<div class="play">
+					<img src="images/icon/join.png" alt="join us"><span><a href="https://docs.google.com/forms/d/e/1FAIpQLSfWwcB_63fsL4yBWcd2XjAcuTWBxsm-mkLGs5f3MIobX45xfg/viewform?usp=sf_link" target="_blank">Join us</a></span>
+				</div>
+			</div>
+			<div class="svg-image">
+				<img src="images/extra/svg1.jpeg" alt="svg">
+			</div>
+		</div>
+		<div class="side-menu" id="side-menu">
+			<div class="close" onclick="sideMenu(1)"><img src="images/icon/close.png" alt=""></div>
+			<!--<div class="user">
+				<img src="images/creator/roshan.jpeg" alt="Username">
+				<p>roshank9419</p>
+			</div>-->
+			<ul>
+				<li><a href="#about_section">About</a></li>
+				<li><a href="#portfolio_section">controbuters</a></li>
+				<li><a href="#team_section">Team</a></li>
+				<li><a href="#services_section">Services</a></li>
+				<li><a href="#contactus_section">Contact</a></li>
+				
+			</ul>
+		</div>
+	</header>
+
+
+<!-- Some Popular Subjects -->
+	<div class="title" id="services_section">
+		<span>Services on Meeical</span>
+	</div>
+	<br><br>
+	<div class="course">
+		<center><div class="cbox">
+		<div class="det"><a href="subjects/mee.html#book"><img src="images/courses/book.png">Mechanical Books</a></div>
+		<div class="det"><a href="subjects/gate.html"><img src="images/courses/d1.png">Gate Material</a></div>
+		<div class="det"><a href="subjects/mee.html#PYQ"><img src="images/courses/paper.png">Previous year Papers</a></div>
+		<div class="det"><a href="subjects/mee.html"><img src="images/courses/d1.png">Subject Notes</a></div>
+		</div></center>
+		<div class="cbox">
+		<div class="det"><a href="subjects/extra.html"><img src="images/courses/computer.png">Current in the world</a></div>
+		<div class="det"><a href="subjects/mee.html"><img src="images/courses/data.png">Project ideas</a></div>
+		<div class="det"><a href="subjects/extra.html"><img src="images/courses/algo.png">Internship information</a></div>
+		<div class="det det-last"><a href="https://absolute-learning.netlify.app/"><img src="images/courses/projects.png">absolute learning</a></div>
+		</div>
+	</div>
+
+	
+<!-- ABOUT -->
+	<div class="diffSection" id="about_section">
+		<center><p style="font-size: 50px; padding: 100px">About</p></center>
+		<div class="about-content">
+				<div class="side-image">
+					<img class="sideImage" src="images/extra/e3.jpg">
+				</div>
+				<div class="side-text">
+					<h2>What makes us different?</h2>
+					<p>We make sure that everyone blossoms. We keep a human size in a warm and modern setting. All visiters benefit from individualised support.
+
+						we are eger to share all the possible things that are available and what can be.We are a team that wants to convey what we have learned to the people. In the field of mechanical engineering 
+						everything is not available at onePlateform.Meeical is a small effort to bring it at a single plateform.
+						.</p>
+				</div>
+		</div>
+	</div>
+
+
+
+
+<!-- TEAM -->
+	<div class="diffSection" id="team_section">
+		<center><p style="font-size: 50px; padding-top: 100px; padding-bottom: 60px;">We're the Creators</p></center>
+		<div class="totalcard">
+			<div class="card">
+				<center><img src="images/creator/roshan1.jpg"></center>
+				<center><div class="card-title">Kumar Mangalam</div>
+				<div id="detail">
+					<p></p>
+					<div class="duty"></div>
+					<a href="https://www.linkedin.com/in/kr-mangalam/" target="_blank"><button class="btn-roshan">Follow +</button></a>
+				</div>
+				</center>
+			</div>
+			<div class="card">
+				<center><img src="images/creator/roshan2.jpeg"></center>
+				<center><div class="card-title">Shivam Pathak</div>
+				<div id="detail">
+					<p></p>
+					<div class="duty"></div>
+					<a href="https://www.linkedin.com/in/thepathakshivam/" target="_blank"><button class="btn-akhil">Follow +</button></a>
+				</div>
+				</center>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+<!-- Sliding Information 
+	<marquee style="background: linear-gradient(to right, #FA4B37, #DF2771); margin-top: 50px;" direction="left" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="20"><div class="marqu">“Education is the passport to the future, for tomorrow belongs to those who prepare for it today.” “Your attitude, not your aptitude, will determine your altitude.” “If you think education is expensive, try ignorance.” “The only person who is educated is the one who has learned how to learn …and change.”</div></marquee>-->
+
+<!-- FOOTER -->
+	<footer>
+		<div class="footer-container">
+			<div class="left-col">
+				<img src="images/icon/logo.png" style="width: 200px;">
+				<div class="logo"></div>
+				<div class="social-media">
+					<a href="#"><img src="images/icon\fb.png"></a>
+					<a href="#"><img src="images/icon\insta.png"></a>
+					<a href="#"><img src="images/icon\tt.png"></a>
+					<a href="#"><img src="images/icon\ytube.png"></a>
+					<a href="#"><img src="images/icon\linkedin.png"></a>
+				</div><br><br>
+				<p class="rights-text">Copyright ©meeical 2024 All Rights Reserved.</p>
+				<br><p><img src="images/icon/location.png"> CSJM University<br>Kanpur, Uttar pradesh-208024</p><br>
+				<p><img src="images/icon/phone.png"> +91-7355052981<br><img src="images/icon/mail.png">&nbsp; meeical.info@gmail.com</p>
+			</div>
+			<div class="right-col">
+				<h1 style="color: #fff">Our Newsletter</h1>
+				<div class="border"></div><br>
+				<p>Enter Your Email to get our News and updates.</p>
+				<form class="newsletter-form">
+					<input class="txtb" type="email" placeholder="Enter Your Email">
+					<input class="btn" type="submit" value="Submit">
+				</form>
+				
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
